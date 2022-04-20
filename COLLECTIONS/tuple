@@ -56,7 +56,7 @@ elif(n==18):
   del t2
   print("t2 is deleted : ",t2)
 elif(n==19):
-  strv="python programming"
+  strv="water"
   print("datatype of strv is : ",type(strv))
   t3=tuple(strv)
   print("converted into immutable sequence of elements : ",type(t3))
