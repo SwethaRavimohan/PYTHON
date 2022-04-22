@@ -1,0 +1,12 @@
+list=[10, -11, 21, -1, -2, -9, 51]
+def numbers(num):
+  positive=0
+  negative=0
+  for j in num:
+    if(j<0):
+      positive=positive+1
+    else:
+      negative=negative+1
+  print("Number of positive numbers: ",positive)
+  print("Number of negative numbers: ",negative)
+numbers(list)
