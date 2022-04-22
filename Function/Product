@@ -1,0 +1,17 @@
+def productsum(a,b):
+  sum=0
+  rem=0
+  product=a*b
+  if(product > 500):
+    print("The Product is greater than 500")
+    print("Product = ",product)
+    while(product>0):
+      rem=product%10
+      sum=sum+rem
+      product=product//10
+    print("sum of their product = ",sum)
+  else:
+    print("Product = ",product)
+n1=int(input("Enter first number = "))
+n2=int(input("Enter second number = "))
+productsum(n1,n2)
